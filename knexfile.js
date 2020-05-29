@@ -18,33 +18,33 @@ module.exports = {
 
   staging: {
     client: 'sqlite3',
-    useNullAsDefault: true, 
     connection: {
-      filename: './data/expat.db3'
- 
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
     },
     migrations: {
-      directory: './data/migrations'
-    },
-    seeds: {
-      directory: './data/seeds',
-  },
-    useNullAsDefault: true,
+      tableName: 'knex_migrations'
+    }
   },
   production: {
-    client: 'sqlite3',
-    useNullAsDefault: true, 
+    client: 'sqlite3', 
     connection: {
-      filename: './data/expat.db3'
- 
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
     },
     migrations: {
-      directory: './data/migrations'
-    },
-    seeds: {
-      directory: './data/seeds',
-  },
-    useNullAsDefault: true,
+      tableName: 'knex_migrations'
+    }
   }
 
 };
