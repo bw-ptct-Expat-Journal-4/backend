@@ -1,4 +1,4 @@
-require('dotenv').config()
+// require('dotenv').config()
 //Allows secrets to deploy
 const server = require('./api/server.js');
 
