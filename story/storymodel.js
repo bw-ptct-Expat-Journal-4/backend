@@ -7,8 +7,6 @@ module.exports = {
     addStory,
     updateStory,
     removeStory,
-    
-
 }
 
 function getStory() {
