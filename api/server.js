@@ -16,6 +16,7 @@ server.use('/app/auth', authRouter);
 server.use('/app/users', usersRouter);
 server.use('/app/story', storyRouter)
 
+
 server.get('/', (req, res) => {
     res.send("This Is The Server")
 })
