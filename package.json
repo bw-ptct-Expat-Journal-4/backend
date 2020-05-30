@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/bw-ptct-Expat-Journal-4/backend/issues"
   },
-  "homepage": "https://github.com/bw-ptct-Expat-Journal-4/backend#readme"
+  "homepage": "https://github.com/bw-ptct-Expat-Journal-4/backend#readme",
+  "engines": {
+    "node": "12.14.x"
+  }
 }
