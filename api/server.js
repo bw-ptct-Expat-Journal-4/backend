@@ -4,7 +4,7 @@ const helmet = require('helmet');
 
 const authRouter = require('../auth/authRouter.js');
 const usersRouter = require('../users/usersRouter.js');
-const storyRouter = require('../story/storyRouter.js')
+const storyRouter = require('../story/storyrouter.js')
 
 const server = express();
 
