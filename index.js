@@ -2,7 +2,7 @@
 //Allows secrets to deploy
 const server = require('./api/server.js');
 
-const PORT = process.env.Port || 4000
+const PORT = process.env.PORT || 4000
 
 
 server.listen(PORT, () => {
