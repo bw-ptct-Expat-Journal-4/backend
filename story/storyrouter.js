@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
     Story.findStoryById(id)
     .then(user => {
         if (user) {
-            Users.updateStory(changes, id)
+            Story.updateStory(changes, id)
             .then(updateStory => {
                 res.json(updateStory);
             })
