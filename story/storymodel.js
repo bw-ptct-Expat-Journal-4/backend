@@ -34,7 +34,7 @@ function getStory() {
   
   function updateStory(id, story) {
     return db('story')
-           .where('id', Number(id))
+           .where('id', id)
            .update(story);
   }
 
